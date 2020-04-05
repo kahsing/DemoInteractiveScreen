@@ -1,0 +1,28 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Interactive Screen",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm start dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahsing/DemoInteractiveScreen.git"
+  },
+  "keywords": [
+    "interactive",
+    "screen"
+  ],
+  "author": "Sean Pang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahsing/DemoInteractiveScreen/issues"
+  },
+  "homepage": "https://github.com/kahsing/DemoInteractiveScreen#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
